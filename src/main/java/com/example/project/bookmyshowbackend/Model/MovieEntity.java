@@ -35,7 +35,7 @@ public class MovieEntity {
     private int id; //Auto-generated
 
     @Column(name = "name", nullable = false)
-    private String name;
+    private String name; // it is good
 
 
     @Column(name = "release_date", columnDefinition = "DATE", nullable = false)
